@@ -1,0 +1,40 @@
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    width: 200px;
+    .number-wrapper{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 200px;
+        height: 220px;
+        justify-content: center;
+        .number{
+            width: 50px;
+            display: flex;
+            height: 50px;
+            border: 1px solid black;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+       
+    }
+    .symbol-wrapper{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        .symbol{
+            width: 50px;
+            display: flex;
+            height: 50px;
+            border: 1px solid black;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+    }
+}
